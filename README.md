@@ -8,3 +8,8 @@ and go, but this context lineage remains the durable working mind.
 
 - `memory/mission.md`
 - `memory/profiles/designer.md`
+- `memory/findings/candidate_screen.md`
+- `memory/decisions/first_external_product_candidate.md`
+- `memory/plans/launchpad_lint_design_loop.md`
+
+The current focus is the first external product candidate, not an internal mechanism.

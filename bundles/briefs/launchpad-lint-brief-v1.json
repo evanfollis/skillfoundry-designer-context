@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "bundle_id": "launchpad-lint-brief-v1",
+  "purpose": "Builder-ready design brief for the first external Skillfoundry product candidate.",
+  "owners": [
+    {
+      "name": "Skillfoundry Designer",
+      "contact": "agent://designer"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-researcher-context://memory/findings/ranked_bottlenecks.md",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Candidate source bottlenecks and relative ranking."
+    },
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-designer-context://memory/findings/candidate_screen.md",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Selection rationale for the first external product candidate."
+    },
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-designer-context://memory/plans/launchpad_lint_design_loop.md",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Proposed V1 tool surface, metrics, and kill criteria."
+    }
+  ],
+  "content": [
+    {
+      "id": "product",
+      "type": "summary",
+      "body": "Build `launchpad-lint`, a narrow MCP utility that audits launch readiness and drafts marketplace-ready package artifacts for technical builders.",
+      "source_refs": [1, 2]
+    },
+    {
+      "id": "user",
+      "type": "fact",
+      "body": "Primary users are solo AI builders and small technical automation agencies that already have a working MCP server but need help turning it into a credible public launch package.",
+      "source_refs": [0, 2]
+    },
+    {
+      "id": "tool-surface",
+      "type": "instruction",
+      "body": "Keep V1 narrow with exactly two tools: `audit_launch_readiness` and `draft_launch_package`.",
+      "source_refs": [2]
+    },
+    {
+      "id": "success-metrics",
+      "type": "constraint",
+      "body": "The product should reduce launch ambiguity in one pass, generate artifacts that need only light editing, and improve install-to-first-value clarity for the chosen ICP.",
+      "source_refs": [2]
+    },
+    {
+      "id": "kill-criteria",
+      "type": "instruction",
+      "body": "Kill or redesign the candidate if output collapses into generic marketing filler, requires too much hidden context, or still demands substantial manual rewriting before submission.",
+      "source_refs": [2]
+    }
+  ],
+  "promotion": {
+    "status": "candidate",
+    "reviewed_at": "2026-04-06T00:00:00Z",
+    "compatibility": "additive",
+    "notes": "First external product candidate brief chosen for speed, legibility, and low-variance validation."
+  }
+}
