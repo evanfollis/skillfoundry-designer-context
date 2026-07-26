@@ -13,3 +13,10 @@ and go, but this context lineage remains the durable working mind.
 - `memory/plans/launchpad_lint_design_loop.md`
 
 The current focus is the first external product candidate, not an internal mechanism.
+
+## Lifecycle and verification
+
+Maintained, not currently an independently deployed service. The fastest
+complete contract check is `make check`. See
+[docs/architecture.md](docs/architecture.md) for authority boundaries and the
+dated prompt-governance and runtime-path exceptions.
